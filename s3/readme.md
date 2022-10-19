@@ -1,7 +1,8 @@
-Steps:
+# Steps:
 1. Create user user1 in aws iam (only with access key option)
 2. create user group ug1
 3. create policy and add it to ug1
+```
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -34,6 +35,7 @@ Steps:
         }
     ]
 }
+```
 4. generate acc key for user1 and use it your .aws file
 region=<your-region>
 aws_access_key_id=<your-key-id>
